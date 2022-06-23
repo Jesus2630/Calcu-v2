@@ -1,3 +1,8 @@
+/* Revisar Window */
+/* Revisar Tema Switch */
+/* Revisar Array */
+
+
 window.addEventListener("load", () => {
     const display = document.querySelector(".c_display");
     const btns = document.getElementsByClassName("c-boton");
@@ -41,12 +46,6 @@ function actualizar(display,button){
 
 function borrar (display){
     display.innerHTML = 0;
-}
+} 
 
-/* Pruebas */
-const toggle = document.getElementById("toggle");
-const fondo = document.getElementsByClassName("calculadora")
-
-toggle.onclick = function estilo (){
-    
-}
+/* Cambio de Tema */

@@ -13,7 +13,7 @@
     --color-gris_claro: rgb(111, 107, 107);
 
     /* Colores segundo tema*/
-    --bg-colorae:  #393463;
+    --bg-colorae:#393463;
     --color-rosi1:#753f7f;
     --color-rosi2:#c25499;
     --color-rosi3:#ff7cb7;
@@ -39,6 +39,10 @@ body{
 .header{
     display: flex;
     justify-content: center;
+}
+
+.bx{
+    color: #03cbfa;
 }
 
 .header__title{
@@ -148,6 +152,7 @@ body{
     width: 22%;
     padding: 15px;
     cursor: pointer;
+    box-shadow: 3px 3px 20px var(--color-azul1) ;
 }
 
 .piecalcu{
@@ -179,4 +184,35 @@ body{
 
 .color-v:hover{
     background-color: #066b10;
+}
+
+
+/* Cambio de Tema */
+.body-rosa{
+    background-image: linear-gradient(to top, #753f7f, #000000);
+    color: var(--color-blanco);
+}
+
+.span-rosa{
+    color: var(--color-rosi3);
+}
+ 
+.bx-rosa{/* Icono Calculadora */
+    color: var(--color-rosi3);
+}
+
+.calculadora-rosa{
+    border-color: var(--color-rosi3);
+}
+
+.c_display-rosa {
+    border-color: var(--color-rosi1);
+}
+
+.piecalcu-rosa{
+    text-shadow: 2px 2px 5px var(--color-rosi1);
+}
+
+.c-boton-rosa{
+    box-shadow: 5px 5px 15px var(--color-rosi1) ;
 }
